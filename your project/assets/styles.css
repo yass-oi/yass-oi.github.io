@@ -1,0 +1,334 @@
+
+
+/*
+.igs-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(131, 133, 150, 0.548);
+    position: sticky;
+    top:0%
+}
+.igs-display .igs-profile{
+    display: flex;
+    align-items: center;
+}
+.igs-display  .igs-image{
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+}
+.igs-display  .igs-name{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.igs-display .igs-main  {
+    display: flex;
+    list-style-type: none;
+   
+}
+ .igs-main  a {
+    margin-left: 20px;  
+    text-decoration: none;
+    color:;
+}
+
+.igs-main a:hover{
+    background-color:#555 ;
+   color:#fff 
+}
+
+.igs-flex-row{
+    flex-direction: row;
+}
+.igs-flex{
+    display: flex;
+}
+.igs-bg-light{
+    background-color:#c7c2c2 ;
+}
+
+.igs-fnt-size-20px{
+    font-size: 20px;
+}
+.igs-txt-blue{
+    color: rgba(20, 17, 230, 0.637);
+}
+.igs-txt-yellow{
+    color:whitesmoke;
+}
+.igs-underline-none{
+    text-decoration:none;
+}
+.igs-hght-30px{
+    height: 100px;
+}
+.igs-wht-20-px{
+    width: 100px;  
+}
+.igs-bd-50px{
+    border-radius: 30px;
+}
+
+.igs-j-between{
+    justify-content: space-between;
+}
+.igs-pb-20{
+    padding-bottom: 20px;
+}
+.igs-list-style-none{
+    list-style: none;
+}
+.igs-mg-left-auto{
+    margin-left: auto;
+}
+.igs-a-items-center{
+    align-items:center;
+}
+.igs-flex-wrap2{
+    flex-wrap: wrap;
+}
+.igs-width-900px{
+    width: 900px;
+}
+.igs-mg-10px {
+    margin: 10px;
+}
+.igs-pd-10px{
+    padding: 10px;
+}
+.igs-tx-color_black{
+    color: rgb(48, 41, 41);
+}
+.igs-t-decoration-none{
+    text-decoration: none;
+}
+.igs-logo-fntfaimly{
+    font-family: fantasy;
+}
+
+.igs-logo-f-familly{
+    font-family :
+}
+@media screen and (min-width: 320px) {
+    .igs-pb-10{
+        padding-bottom: 10px;
+    }
+}
+*/
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*----- nav bar-------*/
+/*
+.igs-displ-flex {
+    display:flex;
+}
+.igs-j-between{
+    justify-content: space-between;
+}
+.igs-align-items-center{
+    align-items: center;
+}
+.igs-pad30-10px{
+    padding: 30px 10px;
+}
+
+.igs-fnt-weight-500px {
+    font-weight: 500px;
+}
+.igs-fnt-size-16px{
+    font-size: 16px;
+}
+.igs-color-white {
+    color: #fff;
+}
+.igs-t-decoration-none{
+    text-decoration: none;
+}
+.igs-bgr-black{
+    background-color: #fff;
+}
+.igs-width-900px{
+    width: 900px;
+}
+.igs-list-style-none{
+    list-style-type:none;
+}
+.igs-displ-inline-block{
+    display: inline-block;
+}
+button{
+    padding: 10px 25px;
+    background-color:  #66cc5d41;
+    border: none;
+    border-radius: 30%;
+}
+.igs-main a:hover{
+    color: darkgray;
+}
+*/
+/*begin igs*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.igs-dis-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1vh;
+    background-color:#fff;
+    font-family:sans-serif;
+    font-size: 20px;
+
+}
+.igs_low{
+    text-transform: lowercase;
+}
+.igs-ff-Georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.igs-font-logo{
+    font-size: 50px;
+}
+.igs-txt-white{
+    color: rgb(255, 255, 255);
+}
+.igs-fnt-size-30px{
+    font-size: 30px;
+}
+.igs-aline-cent{
+    justify-content: center;
+}
+
+.igs-fnt-size-20px {
+    font-size: 25px;
+}
+.igs-c-black{
+    color: #000;
+}
+.igs-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.igs-links-deco{
+    text-decoration: seashell;
+
+}
+.igs_nav_ul_a_list-style{
+    list-style-type: none;
+}
+.igs-hover:hover {
+    color: #E01411;
+}
+.igs-bg-silver:hover {
+    background-color: rgb(187, 224, 212);
+}
+.igs-size{
+    font-size: 20px;
+}
+.igs-p-10-25px{
+    padding-bottom: 10px;
+}
+.igs-wht-100{
+    width: 100%;
+}
+.igs-bg-p{
+    background:url("./image/main.jpg");
+}
+.igs-flex-direc{
+    flex-direction: column;
+}
+
+.igs-div-h{
+    height: 80vh;
+}
+.igs-bg-norepet{
+    background-repeat: no-repeat;
+}
+.igs-bg-size{
+    background-size: cover;
+}
+.igs-bg-pstion{
+    background-position: center;
+}
+.igs-txt-dark{
+    color: red;
+}
+.igs-d-flex1{
+    display: flex;
+}
+.igs-just-content1{
+    justify-content: center;
+}
+.igs-alignI-center1{
+    align-items: center;
+}
+.igs-nav-h{
+    height: 15vh;
+}
+.igs-cursor-pointer{
+    cursor: pointer;
+}
+.igs-w-px {
+    width: 150px;
+}
+.igs-h-px{
+    height: 90px;
+}
+
+/*--- partie cv ---*/
+
+
+/*
+.igs_nav_display_flex{
+    display: flex;
+}
+.igs_nav_justify_content_space_between{
+    justify-content: space-between;
+}
+.igs_nav_align_items{
+    align-items: center;
+}
+.igs_nav_height_45px{
+    height: 45PX;
+}
+.igs_nav_padding_left_0px{
+    padding-left: 0px;
+}
+.igs_nav_padding_right_5pourcen{
+    padding-right: 5%;
+}
+/*en igs*/
+/*
+.igs_nav_ul_display {
+    display: flex;
+}
+.igs_nav_u
+l_margin {
+    margin: 30PX;
+}
+.igs_nav_ul_text-decoration_none{
+    text-decoration: none;
+}
+
+.igs_nav_ul_font_weight{
+    font-weight: 700;
+}
+.igs_nav_ul_list-style{
+    list-style: none;
+}
+.igs_nav_ul_a_list-style{
+    list-style: none;
+}
+.igs-t-decoration-none{
+    text-decoration: none;
+}
+*/
+    
